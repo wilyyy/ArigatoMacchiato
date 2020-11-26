@@ -1,0 +1,39 @@
+@font-face{
+    font-family: 'LemonadaBold';
+    src: url(fonts/Lemonada/Lemonada-Bold.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/** NAV BAR **/
+nav ul{
+    text-align: center;
+    font-size: 1.5em;
+}
+nav{
+    width: 100%;
+    height: 57px;
+    background: linear-gradient(#8F7C72, #4A3E38);
+    font-family: 'LemonadaBold', Arial, Helvetica, sans-serif;
+}
+
+.nav_link{
+    display: inline-block;
+    padding-top: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em; /* fix distance between nav */
+}
+
+.nav_link_text{
+    color:white;
+    -webkit-text-stroke: 1px #85DE88;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
