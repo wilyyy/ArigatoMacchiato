@@ -81,6 +81,7 @@ nav img {
     top: 20px;
     left: 40px;
     border-radius: 25px;
+    text-shadow: -4px -4px #4a3e38, 4px -4px #4A3E38, -4px 4px #4A3E38, 4px 4px #4a3e38;
 }
 
 #entire-menu{
