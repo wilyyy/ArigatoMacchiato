@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body, html{
+    background-color: #FFFFE4;
+}
+
+/** NAV BAR **/
+nav ul{
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-evenly
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 57px;
+    background: linear-gradient(#8F7C72, #4A3E38);
+    font-family: 'Lemonada', cursive;
+    font-weight: bold;
+}
+
+nav img {
+    height: 95%;
+}
+
+#navimage {
+    display: block;
+    width: 245px;
+}
+
+.nav_link_text{
+    color: #FFFFE4;
+    -webkit-text-stroke: 1px rgba(133, 222, 136, 0.5);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+/**Content**/
+#hero-image{
+    background-image: url(imgs/booking.jpg);
+    width: 100%;
+    height: 668px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+}
+
+#hero-text{
+    width: 814px;
+    height: 135px;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    font-size: 64px;
+    font-weight: bold;
+    color: #FFFFE4;
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    top: 20px;
+    left: 40px;
+    border-radius: 25px;
+}
+
+#calendar{
+    background-image: url(imgs/calendar.png);
+    width: 1503px;
+    height: 583px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 39px;
+}
+
+#calendar-text{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Lemonada', cursive;
+    font-weight: bold;
+    color: #4A3E38;
+}
+footer {
+    background-color: #4a3e38;
+}
+
+.footerrow {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 0px 50px 20px 50px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+.textcenter p{
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    color: #ffffe4;
+}
+
+.footerslogan p {
+    font-family: 'Lemonada', cursive;
+    color: #ffffe4;
+}
+
+.footertext p {
+    font-family: 'Lemonada', cursive;
+    color: #ffffe4;
+}
+
+#footerlogo {
+    display: flex;
+    align-items: center;
+}
+
+#footerlogo img {
+    width: 250px;
+}
+
+#footernavlist {
+    list-style-type: none;
+    font-family: 'Lemonada', cursive;
+    color: #FFFFE4;;
+}
+
+#footernavlist li a {
+    text-decoration: none;
+}
+
+#footernavlist li a:visited {
+    color: #FFFFE4;
+}
+
+#footericonlist {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#footericonlist img{
+    filter: invert(87%) sepia(32%) saturate(640%) hue-rotate(59deg) brightness(96%) contrast(81%);
+}
+
+.footericons {
+    width: 50px;
+    margin: 0px 10px;
+}
+
+input[type=text] {
+    background-color: #FFFFE4;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+input[type=submit] {
+    background: linear-gradient(#CCEBCE, #85DE88);
+    width: 150px;
+    height: 42px;
+    font-family: 'Lemonada', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFE4;
+    -webkit-text-stroke: 1px black;
+    margin-top: 20px;
+}
+
+hr {
+    border: 1px solid #ffffe4;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
